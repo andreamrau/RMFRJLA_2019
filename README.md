@@ -1,6 +1,8 @@
 
 ### Source code for "Individualized multi-omic pathway deviation scores  using multiple factor analysis" (Rau et al., 2019)
 
+[![DOI](https://zenodo.org/badge/218746231.svg)](https://zenodo.org/badge/latestdoi/218746231)
+
 This repository contains the following source code files used to analyze the TCGA breast and lung cancer multi-omic data in Rau et al. (2019) using [*padma*](https://github.com/andreamrau/padma).
 
 The TCGA breast and lung cancer data were downloaded, formatted, and pre-processed as described in [Rau et al. (2018)](https://academic.oup.com/bioinformatics/article/35/1/62/5047764); R scripts to perform these steps may be found in https://github.com/andreamrau/EDGE-in-TCGA, specifically in the [`1_download_TCGA.R`](https://github.com/andreamrau/EDGE-in-TCGA/blob/master/1_download_TCGA.R) and [`2_format_and_preprocess_TCGA.R`](https://github.com/andreamrau/EDGE-in-TCGA/blob/master/2_format_and_preprocess_TCGA.R) scripts. In addition, the inferred AIMS subtypes for the TCGA breast cancer data found in the [`aims_subtypes.txt`](https://github.com/andreamrau/EDGE-in-TCGA/blob/master/aims_subtypes.txt) file may be obtained by running the [`AIMS_subtypes.R`](https://github.com/andreamrau/EDGE-in-TCGA/blob/master/AIMS_subtypes.R) file in the same directory. In running each of these files in succession, the user obtains the two files `BRCA_results.RData` and `LUAD_results.RData`, which are both read in as input for the scripts included in this repo.
