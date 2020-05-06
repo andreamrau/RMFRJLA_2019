@@ -24,7 +24,9 @@ The remainder of the scripts and files are organized as follows:
 
 - **3_analysis-scripts/**
 
-  - `generalized_MFA_pathway_V3.R`: main R script implementing the *padma* approach (pre-release of associated R package)
+  - `explore_single-omics.R`: R script that calculates *padma* scores for RNA-seq data alone for a subset of BRCA pathways 
+  - `healthy_validation.R`: R script to perform the computational validation of *padma* scores using matched healthy and tumor multi-omic (RNA-seq, methylation, miRNA-seq) BRCA data 
+  - `generalized_MFA_pathway_V3.R`: main R script implementing the *padma* approach (pre-release of associated R package) 
   - `global_PCA.R`: script performing the single-omic genome- and transcriptome-wide PCAs
   - `paper_figures.R`: R script reproducing all analysis figures from the main paper and supplementary materials
   - `Plot_Function_0218_ar.R`: R script containing some miscellaneous plot functions
