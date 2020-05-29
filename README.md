@@ -30,6 +30,7 @@ The remainder of the scripts and files are organized as follows:
   - `global_PCA.R`: script performing the single-omic genome- and transcriptome-wide PCAs
   - `paper_figures.R`: R script reproducing all analysis figures from the main paper and supplementary materials
   - `Plot_Function_0218_ar.R`: R script containing some miscellaneous plot functions
+  - `simulations.R`: R script to perform simulation study of *padma*
   - `TCGA_batch_correction_v2.R`: R script performing the per-omic batch correction for the BRCA and LUAD data [obtained](https://github.com/andreamrau/EDGE-in-TCGA) as described in [Rau et al. (2018)](https://academic.oup.com/bioinformatics/article/35/1/62/5047764). The output of this script are the files `BRCA_noBatch_v2.rds` and `LUAD_noBatch_v2.rds` which are input into the `BRCA/MFA_BRCA.R` and `LUAD/MFA_LUAD.R` files to run *padma*. These are omitted here due to space constraints.
 
 - **4_misc/**
